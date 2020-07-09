@@ -1,0 +1,92 @@
+.primary {
+    color: white;
+    font-size: 35px;
+}
+
+.navbar ul li a {
+    margin-right: 8px;
+}
+
+.home::before {
+    height: 156%;
+}
+
+.home{
+	height: 117%;
+}
+
+.home form input, select, button {
+    padding: 9px 14px;
+    font-size: 1rem;
+    margin: 2px 0.1rem;
+}
+.box {
+    border: 2px solid black;
+    /* overflow: hidden; */
+    border-radius: 5px;
+    padding: 26px 19px;
+    margin: 28px 3px;
+    }
+.box-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.location {
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.home form {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#below-button {
+    /* align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    /* clear: both; */
+    justify-content: center;
+    margin-top: 66px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+.subscribe input {
+    padding: 22px 149px;
+}
+
+.comments p, h3 {
+ 
+    margin: 7px 51px;
+}
+
+
+#contact-us {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: 10px 80px;
+    height: 43rem;
+}
+
+footer{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 30px;
+    height: 60;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }   
