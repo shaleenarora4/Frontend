@@ -2,10 +2,36 @@
     color: white;
     font-size: 35px;
 }
-
+/*
 .navbar ul li a {
     margin-right: 8px;
 }
+
+*/
+.navbar{
+    display: none;
+}
+#smaller_navbar{
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px 40px;
+}
+#smaller_navbar select {
+    padding: 10px 0px;
+    margin: 0px 0xp;
+    width: 25%;
+    /* float: left; */
+    border: 2px solid white;
+    border-radius: 12px;
+   background-color: #cfcfcf;
+
+}
+#smaller_navbar option {
+    background-color: transparent;
+}
+
+
+
 
 .home::before {
     height: 156%;

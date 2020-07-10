@@ -20,6 +20,10 @@ h1{
 	font-weight: bold;
 }
 
+#smaller_navbar{
+	display: none;
+}
+
 .navbar ul{
 display: flex;
 }

@@ -7,6 +7,8 @@ h1 {
 h4.secondary.home-sub-heading {
     font-size: 14px;
 }
+
+
 /*
 nav button,img{
 	display: none;
@@ -33,6 +35,28 @@ nav button,img{
     margin-right: 0px;
 }
 */
+
+.navbar{
+    display: none;
+}
+#smaller_navbar{
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px 0px;
+}
+#smaller_navbar select {
+    padding: 10px 0px;
+    margin: 0px 0xp;
+    width: 25%;
+    /* float: left; */
+    border: 2px solid white;
+    border-radius: 12px;
+   background-color: #cfcfcf;
+
+}
+#smaller_navbar option {
+    background-color: transparent;
+}
 
 .home {
     display: flex;
