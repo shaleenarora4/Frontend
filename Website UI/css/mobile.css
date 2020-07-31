@@ -1,0 +1,43 @@
+.navbar ul li {
+  
+    margin: 0px -13px;
+} 
+
+.home{
+	height: 100%;
+}   
+
+.home::before {
+    height: 139%;
+}
+
+
+.home form input, select, button {
+    padding: 8px 21px;
+    font-size: 1rem;
+    margin: 12px 1px;
+}
+.box {
+    border: 2px solid black;
+    /* overflow: hidden; */
+    border-radius: 5px;
+    padding: 26px 19px;
+    margin: 28px 3px;
+} 
+.subscribe input {
+    padding: 15px 124px;
+    border: none;
+    height: 37px;
+}
+.comments p, h3 {
+    margin: 7px 144px;
+    font-weight: bold;
+}
+
+.comments {
+    height: 85%;
+}
+
+.comments::before {
+    height: 71%;
+}
